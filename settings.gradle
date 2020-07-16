@@ -1,0 +1,3 @@
+include ':simpleemptystateview'
+include ':app'
+rootProject.name = "Simple-Empty-State-View"
