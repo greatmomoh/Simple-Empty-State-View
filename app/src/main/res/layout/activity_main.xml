@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <com.great.momoh.simpleemptystateview.SimpleEmptyStateView
+        android:id="@+id/no_tasks_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:emptyStateImageSrc="@drawable/ic_launcher_background"
+        app:emptyStateButtonText="@string/button_text"
+        app:emptyStateTitleText="@string/title"
+        app:emptyStateCaptionText="@string/caption"
+        app:isButtonVisible="true"
+        app:isTitleVisible="true"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

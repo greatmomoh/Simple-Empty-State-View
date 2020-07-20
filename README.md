@@ -2,6 +2,8 @@
 
 Simple UI tool to collate most of the features used in creating an empty state in android.
 
+![sample image](https://github.com/greatmomoh/Simple-Empty-State-View/blob/master/Screenshot_1595242596.png?raw=true)
+
 ## Installation
 
 ### Method 1 - Gradle Dependency
